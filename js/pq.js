@@ -28,12 +28,45 @@ let quotes = [
 "🏄🏾 Sooper loong!",
 "🐍 Nice coil to this one",
 "🦭 This girth is something to behold!",
-"📏 The longest poo to close out January."
+"📏 The longest poo to close out January.",
+"🤡 This poo is 'uge'",
+"🦪 Gooey",
+"🔧 This one has length and girth, but fell apart",
+"🥨 Pretzel poo",
+"🔺 This one seems to have three ends... strange",
+"🐌 The lump",
+"🧬 This poo has a helix-like twist",
+"Forgot to take the poo picture. 🙄",
+"🐖 Pile with a pig tail poo",
+"🫧 Somewhere between solid and soft",
+"🏔️ This poo piled out",
+"🚰 Poof. Liquid poo!",
+"🐍 Snake-like goo poo.",
+"🪠 Super long! And super straight!",
+"🧺 This poo started small, but grew up fast",
+"📀 Compact pile","A very brown poo!",
+"🪄 Long, but not too long",
+"👧 This one's got the curl!",
+"🫣 Giant coil.",
+"🐍 Snake poo",
+"🎢 This poo has it all! Twists, turns, solid, goo",
+"🫃 Bulbous",
+"🌫️ Perfect coiled, but blurry picture",
+"🎼 Your Sharona? My intestines.",
+"🏋️‍♂️ Long and strong",
+"🧻 TOILET PAPER NOOOOOO!",
+"🚰 Never mind the drip.",
+"🐣 Too much peeps, not enough poops",
+"✊ Fist in the air!",
+"💥 This is a dis-ass-ter. Nice poo though",
+"🪙 Heads or tails?",
+"👧 Tall and blonde poo",
+"🌀 Poo Spiral.",
+"🧻 This one would be epic without the T.P.",
 ]
 
 
 pooBtn.addEventListener("click", () => {
     let rand_quote = quotes[(Math.floor(Math.random() * quotes.length))];
     display.innerText = rand_quote;
-    console.log(rand_quote);
 })
